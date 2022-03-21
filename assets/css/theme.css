@@ -30,10 +30,6 @@ header {
     color: var(--light);
 }
 
-img {
-    max-width: 50%;
-}
-
 body { 
     font-family: var(--font);
 }
