@@ -1,0 +1,35 @@
+
+:root {
+    --primary: rgb(24, 47, 95);
+    --light: rgb(238, 240, 245);
+    --dark: rgb(0, 3, 8);
+    --intermediate: rgb(99, 100, 104);
+    --font: arial;
+
+    --spacing: 0.5rem;
+    --spacing2: calc(var(--spacing) * 2);
+    --spacing3: calc(var(--spacing) * 3);
+    --spacing4: calc(var(--spacing) * 4);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    background-color: var(--primary);
+    color: var(--light);
+}
+
+img {
+    max-width: 50%;
+}
