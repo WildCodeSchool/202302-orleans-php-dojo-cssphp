@@ -1,6 +1,6 @@
 
 :root {
-    --primary: rgb(41, 76, 153);
+    --primary: rgb(49, 90, 179);
     --light: rgb(238, 240, 245);
     --dark: rgb(0, 3, 8);
     --intermediate: rgb(99, 100, 104);
@@ -32,4 +32,20 @@ header {
 
 img {
     max-width: 50%;
+}
+
+body { 
+    font-family: var(--font);
+}
+
+h1, h2 {
+    color: var(--primary);
+}
+
+header h1, header h2 {
+    color: var(--light);
+}  
+
+section {
+    padding: var(--spacing2);
 }
