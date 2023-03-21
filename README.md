@@ -1,7 +1,11 @@
 # Dojo CSS - PHP
 
 ## Etape 1 - CSS
-En t'aidant de la structure HTML/CSS fournie, reproduit le design des cards selon l'image ci-dessous. Tu dois uniquement toucher au fichier *style.css* à ce stade. On ne cherche pas un rendu *pixel perfect*
+En t'aidant de la structure HTML/CSS fournie, reproduit le design des cards selon l'image ci-dessous. 
+Un squelette HTML est fourni dans *index.html* et du style de base dans *theme.css*.
+Tu dois uniquement toucher au fichier ***style.css*** et ***index.html*** à ce stade. 
+
+⚠️ On ne cherche pas un rendu *pixel perfect*
 
 ![css dojo](cssDojo.png)
 
