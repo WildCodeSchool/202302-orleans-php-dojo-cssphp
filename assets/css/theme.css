@@ -18,6 +18,7 @@
 
 body {
     margin:0;
+    font-family: var(--font);
 }
 
 header {
@@ -28,10 +29,6 @@ header {
     height: 400px;
     background-color: var(--primary);
     color: var(--light);
-}
-
-body { 
-    font-family: var(--font);
 }
 
 h1, h2 {

@@ -6,7 +6,7 @@ En t'aidant de la structure HTML/CSS fournie, reproduit le design des cards selo
 ![css dojo](cssDojo.png)
 
 ## Etape 2 - Responsive
-Fais en sorte que les cards soient responsive en t'aidant de l'image ci-dessous. 
+Fais en sorte que les cards soient *responsives* en t'aidant de l'image ci-dessous. 
 
 ![css dojo resonsive](cssDojoResponsive.png)
 
