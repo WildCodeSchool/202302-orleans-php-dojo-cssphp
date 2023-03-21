@@ -22,6 +22,13 @@ $data = [
             'title' => 'PhD in Economics',
             'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nihil repellat ex. Labore maxime eligendi deleniti laboriosam omnis assumenda, ratione tempora provident voluptatibus similique odio reprehenderit expedita autem dolorem ipsum!',
             'image' => 'university.jpg',
+        ],       
+       [
+            'date' => '2023',
+            'location' => 'Wild Code School',
+            'title' => 'Dev web',
+            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nihil repellat ex. Labore maxime eligendi deleniti laboriosam omnis assumenda, ratione tempora provident voluptatibus similique odio reprehenderit expedita autem dolorem ipsum!',
+            'image' => 'university.jpg',
         ],
     ],
     'Experiences' =>  [
@@ -61,7 +68,7 @@ $data = [
             'image' => 'highschool.jpg',
         ],
     ],
-    'Other' =>  [
+    'Others' =>  [
         [
             'date' => '2013-2016',
             'location' => 'Highschool of Smalltown',
@@ -73,6 +80,22 @@ $data = [
             'date' => '2013-2016',
             'location' => 'Highschool of Smalltown',
             'title' => 'Highschool degree',
+            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nihil repellat ex. Labore maxime eligendi deleniti laboriosam omnis assumenda, ratione tempora provident voluptatibus similique odio reprehenderit expedita autem dolorem ipsum!',
+            'image' => 'highschool.jpg',
+        ],
+    ],
+    'Languages' =>  [
+        [
+            'date' => '2013-2016',
+            'location' => 'Highschool of Smalltown',
+            'title' => 'Anglais',
+            'description' => ' assumenda, ration expedita autem dolorem ipsum!',
+            'image' => 'highschool.jpg',
+        ],
+        [
+            'date' => '2013-2016',
+            'location' => 'Highschool of Smalltown',
+            'title' => 'Espagnol',
             'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nihil repellat ex. Labore maxime eligendi deleniti laboriosam omnis assumenda, ratione tempora provident voluptatibus similique odio reprehenderit expedita autem dolorem ipsum!',
             'image' => 'highschool.jpg',
         ],

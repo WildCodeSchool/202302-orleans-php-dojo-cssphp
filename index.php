@@ -1,3 +1,7 @@
+<?php
+require 'data.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,10 +19,16 @@
         <h2>Consultant in economics</h2>
     </header>
     <main>
-        <section>
-            <h1>Trainings</h1>
-        </section>
+        <?php foreach ($data as $title => $cards) { ?>
+            <section>
+                <h1><?php echo $title; ?></h1>
+                <div class="trainingCards">
+                    <?php foreach ($cards as $key => $card) { ?>
+                        <?php include 'article.php'; ?>
+                    <?php } ?>
+                </div>
+            </section>
+        <?php } ?>
     </main>
 </body>
-
 </html>
